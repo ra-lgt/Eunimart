@@ -24,14 +24,14 @@
 				<form method="POST" action='register'>
 					{% csrf_token %}
 					<label for="chk" aria-hidden="true">Sign up</label>
-					<input type="text" name="txt" placeholder="First Name" >
-					<input type="email" name="txt" placeholder="Middle Name" >
-					<input type="password" name="txt" placeholder="Last Name" >
-					<input type="password" name="number" placeholder="User ID" >
-					<input type="password" name="number" placeholder="Age" >
-					<input type="password" name="number" placeholder="Phone Number" >
-					<input type="password" name="email" placeholder="Email" >
-					<input type="password" name="pswd" placeholder="Password" >
+					<input type="text" name="first_name" placeholder="First Name" >
+					<input type="text" name="middle_name" placeholder="Middle Name" >
+					<input type="text" name="last_name" placeholder="Last Name" >
+					
+					<input type="number" name="age" placeholder="Age" >
+					<input type="number" name="phone_number" placeholder="Phone Number" >
+					<input type="email" name="email" placeholder="Email" >
+					<input type="password" name="password" placeholder="Password" >
 					<button>Sign up</button>
 				</form>
 			</div>
